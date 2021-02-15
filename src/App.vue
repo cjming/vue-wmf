@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <PageList />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import PageList from "./components/PageList.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    PageList
   }
 };
 </script>
@@ -19,8 +18,10 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  h1 {
+    text-align: center;
+  }
 }
 </style>
