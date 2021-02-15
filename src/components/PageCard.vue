@@ -1,5 +1,5 @@
 <template>
-  <div class="page-card" v-if="!lastOne">
+  <div class="page-card">
     <figure class="image" v-if="page.thumbnail !== null">
       <img :src="page.thumbnail.url" />
     </figure>
@@ -9,7 +9,7 @@
       <div class="teaser-text-description">{{ page.description }}</div>
     </div>
   </div>
-  <div class="page-card teaser-text last-div" v-else>
+  <div class="page-card teaser-text last-div" v-if="lastOne">
     <span>Search for pages containing [x]…</span>
   </div>
 </template>
