@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="page-card teaser-text last-div" v-else>
-    <p>Search for pages containing [x]…</p>
+    <span>Search for pages containing [x]…</span>
   </div>
 </template>
 
