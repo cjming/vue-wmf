@@ -1,4 +1,6 @@
-# wmf
+# WMF
+
+Deployed at https://wmf.onrender.com/
 
 ## Project setup
 ```
