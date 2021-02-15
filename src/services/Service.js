@@ -11,6 +11,6 @@ const apiClient = axios.create({
 
 export default {
   getPages() {
-    return apiClient.get("&limit=10");
+    return apiClient.get();
   }
 };

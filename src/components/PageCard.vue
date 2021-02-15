@@ -9,10 +9,8 @@
       <div class="teaser-text-description">{{ page.description }}</div>
     </div>
   </div>
-  <div v-else>
-    <div class="teaser-text">
-      <p>Search for pages containing [x]…</p>
-    </div>
+  <div class="page-card teaser-text last-div" v-else>
+    <p>Search for pages containing [x]…</p>
   </div>
 </template>
 
